@@ -49,8 +49,8 @@ export default function SignUp({ onSignUp, onLogin, onGoogleLogin, error, loadin
           </motion.div>
           <motion.div className="space-y-3" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}>
             <StepItem number={1} text="Register your identity" active />
-            <StepItem number={2} text="Configure your studio" />
-            <StepItem number={3} text="Finalize your profile" />
+            <StepItem number={2} text="Describe the Case" />
+            <StepItem number={3} text="Get Verdict" />
           </motion.div>
         </motion.div>
       </div>
