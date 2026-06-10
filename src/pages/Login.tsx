@@ -43,7 +43,7 @@ export default function Login({ onLogin, onGoogleLogin, onSignUp, error, loading
           </motion.div>
           <motion.div className="space-y-3" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.15 }}>
             <h1 className="text-4xl font-medium tracking-tight whitespace-nowrap">Welcome Back</h1>
-            <p className="text-white/60 text-sm leading-relaxed px-4">Sign in to access Judge Divyansh and get verdicts based on Indian law.</p>
+            <p className="text-white/60 text-sm leading-relaxed px-4">Sign in to access Judge AI and get verdicts based on Indian law.</p>
           </motion.div>
           <motion.div className="space-y-4" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}>
             <div className="flex items-center gap-3 bg-white/10 backdrop-blur-md rounded-xl px-4 py-3">
