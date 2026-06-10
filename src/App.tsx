@@ -121,10 +121,14 @@ export default function App() {
   };
 
   const handleLogout = async () => {
-    setUser(null);
-    setError("");
-    setPage("login");
-    await logout();
+    try {
+      setUser(null);
+      setError("");
+      setPage("login");
+      await logout();
+    } catch (err) {
+      alert("Logout error: " + (err instanceof Error ? err.message : String(err)));
+    }
   };
 
   // Don't render until Firebase has checked auth state
