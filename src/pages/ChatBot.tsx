@@ -220,7 +220,7 @@ export default function ChatBot({ user, onLogout }: ChatBotProps) {
                     <p className="text-xs text-white/40">{user.email}</p>
                   </div>
                   <button
-                    onClick={onLogout}
+                    onClick={() => { setShowNavMenu(false); onLogout(); }}
                     className="w-full px-4 py-2 text-left text-sm text-red-400 hover:bg-white/5 flex items-center gap-2"
                   >
                     <LogOut size={14} />

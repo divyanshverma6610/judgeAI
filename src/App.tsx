@@ -121,9 +121,10 @@ export default function App() {
   };
 
   const handleLogout = async () => {
-    await logout();
+    setUser(null);
     setError("");
-    // onAuthChange will handle setting user + page
+    setPage("login");
+    await logout();
   };
 
   // Don't render until Firebase has checked auth state
