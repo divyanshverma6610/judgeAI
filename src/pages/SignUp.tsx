@@ -41,10 +41,10 @@ export default function SignUp({ onSignUp, onLogin, onGoogleLogin, error, loadin
         <motion.div className="z-10 w-full max-w-xs space-y-8" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           <motion.div className="flex items-center gap-2" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
             <Circle className="fill-white text-white" size={20} />
-            <span className="text-xl font-semibold tracking-tight">Aurora</span>
+            <span className="text-xl font-semibold tracking-tight">Divyansh</span>
           </motion.div>
           <motion.div className="space-y-3" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.15 }}>
-            <h1 className="text-4xl font-medium tracking-tight whitespace-nowrap">Join Aurora</h1>
+            <h1 className="text-4xl font-medium tracking-tight whitespace-nowrap">Join Divyansh</h1>
             <p className="text-white/60 text-sm leading-relaxed px-4">Follow these 3 quick phases to activate your space.</p>
           </motion.div>
           <motion.div className="space-y-3" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }}>
